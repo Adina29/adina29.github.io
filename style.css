@@ -8,7 +8,7 @@
      /* make two columns  */
      display: grid;
      grid-template-columns: repeat(2, 1fr);  
-   }
+    }
     /* 1fr 1fr */
    
    article {
@@ -38,3 +38,4 @@
      height: 100vh;
      object-fit: cover;
    }
+   
