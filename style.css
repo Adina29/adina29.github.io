@@ -1,4 +1,18 @@
-* {
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1 {
+  font-family: "Protest Riot", sans-serif;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+*
+
+  {
     outline: 1px dotted gray;
    }
    
