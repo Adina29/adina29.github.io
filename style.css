@@ -11,10 +11,6 @@ body {
   font-family: "Raleway", sans-serif;
 }
 *
-
-  {
-    outline: 1px dotted gray;
-   }
    
    main {
      background: gainboro;
@@ -26,7 +22,7 @@ body {
     /* 1fr 1fr */
    
    article {
-     background: lightyellow;
+     background: linear-gradient(#F3AFDC,#A6F8F3);
      padding: 2em;
      
      
@@ -38,7 +34,7 @@ body {
    }
    
    aside {
-     background:lightcoral
+     background:linear-gradient(#F3AFDC,#A6F8F3)
      
        
    }
@@ -46,10 +42,30 @@ body {
    aside img {
    /* fit image to container */
      display: block;
-     max-width: 100%;
+     max-width: 80%;
      
      /* full height image. Fit to container. No stretching. */
      height: 100vh;
      object-fit: cover;
    }
+  
    
+   a:hover, 
+   a:active {
+     background: white;
+     border: 1px solid black;
+     color: gray;
+     
+     transform: scale(1.5);
+     
+   }
+
+   body h1 {
+    font-weight: 900;
+    font-size: 2rem;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    
+  }
+  
