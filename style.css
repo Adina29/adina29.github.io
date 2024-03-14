@@ -29,8 +29,8 @@ body {
    /*  vert center. horiz center.  */
      display: flex;
      flex-direction: column;
-     justify-content: center;
-     align-items: center;
+     justify-content: top-center;
+     align-items: left;
    }
    
    aside {
@@ -42,10 +42,10 @@ body {
    aside img {
    /* fit image to container */
      display: block;
-     max-width: 80%;
+     max-width: 90%;
      
      /* full height image. Fit to container. No stretching. */
-     height: 100vh;
+     height: 60vh;
      object-fit: cover;
    }
   
