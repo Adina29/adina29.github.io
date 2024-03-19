@@ -9,11 +9,13 @@ h1 {
 
 body {
   font-family: "Raleway", sans-serif;
+  background-color:#A6F8F3
 }
 *
    
    main {
      background: gainboro;
+     
      
      /* make two columns  */
      display: grid;
@@ -24,13 +26,15 @@ body {
    article {
      background: linear-gradient(#F3AFDC,#A6F8F3);
      padding: 2em;
+     left: 100px
+
      
      
    /*  vert center. horiz center.  */
      display: flex;
      flex-direction: column;
      justify-content: top-center;
-     align-items: left;
+     align-items: right;
    }
    
    aside {
@@ -47,6 +51,7 @@ body {
      /* full height image. Fit to container. No stretching. */
      height: 60vh;
      object-fit: cover;
+     
    }
   
    
@@ -68,4 +73,5 @@ body {
     animation-fill-mode: both;
     
   }
+  
   
